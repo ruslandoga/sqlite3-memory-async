@@ -1,18 +1,15 @@
-# E
+Sync:
 
-To start your Phoenix server:
+```
+..............................................................................................................................................
+Finished in 0.8 seconds (0.3s async, 0.5s sync)
+142 tests, 0 failures
+```
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+[Async:](https://github.com/ruslandoga/sqlite3-memory-async/tree/async)
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+```
+..............................................................................................................................................
+Finished in 0.6 seconds (0.6s async, 0.00s sync)
+142 tests, 0 failures
+```
