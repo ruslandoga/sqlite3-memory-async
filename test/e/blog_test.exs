@@ -1,5 +1,5 @@
 defmodule E.BlogTest do
-  use E.DataCase
+  use E.DataCase, async: true
 
   alias E.Blog
 
