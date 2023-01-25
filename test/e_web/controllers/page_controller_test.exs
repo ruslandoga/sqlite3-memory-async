@@ -1,5 +1,5 @@
 defmodule EWeb.PageControllerTest do
-  use EWeb.ConnCase
+  use EWeb.ConnCase, async: true
 
   test "GET /", %{conn: conn} do
     conn = get(conn, ~p"/")

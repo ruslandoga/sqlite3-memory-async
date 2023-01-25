@@ -1,5 +1,5 @@
 defmodule EWeb.UserSessionControllerTest do
-  use EWeb.ConnCase
+  use EWeb.ConnCase, async: true
 
   import E.AccountsFixtures
 

@@ -1,5 +1,5 @@
 defmodule EWeb.UserAuthTest do
-  use EWeb.ConnCase
+  use EWeb.ConnCase, async: true
 
   alias Phoenix.LiveView
   alias E.Accounts

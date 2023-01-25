@@ -1,5 +1,5 @@
 defmodule EWeb.PostLiveTest do
-  use EWeb.ConnCase
+  use EWeb.ConnCase, async: true
 
   import Phoenix.LiveViewTest
   import E.BlogFixtures

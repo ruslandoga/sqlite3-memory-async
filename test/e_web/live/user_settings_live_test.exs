@@ -1,5 +1,5 @@
 defmodule EWeb.UserSettingsLiveTest do
-  use EWeb.ConnCase
+  use EWeb.ConnCase, async: true
 
   alias E.Accounts
   import Phoenix.LiveViewTest

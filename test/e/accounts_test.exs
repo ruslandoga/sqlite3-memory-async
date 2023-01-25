@@ -1,5 +1,5 @@
 defmodule E.AccountsTest do
-  use E.DataCase
+  use E.DataCase, async: true
 
   alias E.Accounts
 

@@ -1,5 +1,5 @@
 defmodule EWeb.UserResetPasswordLiveTest do
-  use EWeb.ConnCase
+  use EWeb.ConnCase, async: true
 
   import Phoenix.LiveViewTest
   import E.AccountsFixtures
